@@ -12,6 +12,9 @@ import {
 
 import { FungibleTokenAdminBase, FungibleTokenAdminDeployProps } from "./ft-standard";
 
+/**
+ * This is just a copy of the sample FungibleTokenAdmin contract, which is inherently pausable.
+ */
 export class PausableAdmin extends SmartContract implements FungibleTokenAdminBase {
     @state(PublicKey)
     private adminPublicKey = State<PublicKey>()
