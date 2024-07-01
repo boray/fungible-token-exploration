@@ -1,4 +1,4 @@
-# Mina zkApp: Fungible Token
+# Mina zkApp: Fungible Token Exploration
 
 This template uses TypeScript.
 

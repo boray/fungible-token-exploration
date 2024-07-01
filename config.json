@@ -1,4 +1,13 @@
 {
   "version": 1,
-  "deployAliases": {}
+  "deployAliases": {
+    "devnet": {
+      "networkId": "testnet",
+      "url": "https://proxy.devnet.minaexplorer.com/graphql",
+      "keyPath": "keys/devnet.json",
+      "feepayerKeyPath": "/Users/boraysaygilier/.cache/zkapp-cli/keys/berkkey.json",
+      "feepayerAlias": "berkkey",
+      "fee": "0.1"
+    }
+  }
 }
